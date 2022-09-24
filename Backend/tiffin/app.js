@@ -17,8 +17,9 @@ const dishModel = require("./models/dish");
 //connect db
 const connectDb = require("./db/connect");
 const { StatusCodes } = require("http-status-codes");
-const dish = require("./models/dish");
 
+const notfound = require("./middleware/not-found");
+const errorHandler = require("./middleware/error-handler");
 //middlewares
 app.use(
   bodyParser.urlencoded({
@@ -47,6 +48,8 @@ app.post("/api/v1/tiffin/dish", upload.single("imageUrl"), async (req, res) => {
   res.status(StatusCodes.CREATED).json({ res: "success", data: dish });
 });
 app.use("/api/v1/tiffin", mainRouter);
+app.use(notfound);
+app.use(errorHandler);
 
 const port = process.env.PORT || 3000;
 
