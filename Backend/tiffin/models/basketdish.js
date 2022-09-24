@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
-const Basket = require('../models/basket')
+const Basket = require('./basket')
 
 const BasketDishSchema = new mongoose.Schema({
   dish:{
-    type:mongoose.Types.Subdocument,
+    type:Object,
     required:[true,'Please provide dish object']
   },
   basketId:{

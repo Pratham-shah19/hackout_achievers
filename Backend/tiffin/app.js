@@ -10,7 +10,6 @@ const authMiddleware = require('./middleware/authorization')
 const mainRouter = require('./routes/router')
 
 //model
-const tiffinModel = require('./models/tiffin')
 
 //connect db
 const connectDb = require('./db/connect')
@@ -20,7 +19,7 @@ app.use(express.static('public'))
 app.use(express.json())
 
 //router
-app.use('/api/v1/tiffin',authMiddleware,mainRouter)
+app.use('/api/v1/tiffin',mainRouter)
 
 const port = process.env.PORT || 3000;
 
