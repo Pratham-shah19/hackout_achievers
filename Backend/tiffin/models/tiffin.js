@@ -58,6 +58,10 @@ const tiffinSchema = new mongoose.Schema({
     type:Number,
     default:0,
     required:false
+  },
+  otp:{
+    type:Number,
+    default:0
   }
 });
 
