@@ -3,22 +3,22 @@ const mongoose = require("mongoose");
 //schema definition
 const orderSchema = new mongoose.Schema({
   userId: {
-    type: String,
+    type: mongoose.Types.ObjectId,
     required: [true, "Please provide user id"],
     unique: true,
   },
   basketId: {
-    type: String,
+    type: mongoose.Types.ObjectId,
     required: [true, "Please provide basket id"],
     unique: true,
   },
   deliveryId: {
-    type: String,
+    type: mongoose.Types.ObjectId,
     required: [true, "Please provide delivery id"],
     unique: true,
   },
   tiffinId: {
-    type: String,
+    type: mongoose.Types.ObjectId,
     required: [true, "Please provide tiffin id"],
     unique: true,
   },
