@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodie-staging-100454-authRole",
+      "UnauthRoleArn": "arn:aws:iam::913967682002:role/amplify-foodie-staging-100454-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::913967682002:role/amplify-foodie-staging-100454-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-foodie-staging-100454-deployment",
+      "UnauthRoleName": "amplify-foodie-staging-100454-unauthRole",
+      "StackName": "amplify-foodie-staging-100454",
+      "StackId": "arn:aws:cloudformation:us-east-1:913967682002:stack/amplify-foodie-staging-100454/a8a93c70-c223-11ec-9c60-0ae6aa8dad81",
+      "AmplifyAppId": "d1h2c6n89c6ymh"
+    },
+    "categories": {
+      "auth": {
+        "Foodie": {},
+        "true": {}
+      },
+      "storage": {
+        "foodie05efd6f6": {
+          "bucketName": "foodiea1665dd62b264be588a3c6bb947187e3100454-staging",
+          "region": "us-east-1"
+        }
+      }
+    }
+  }
+}
