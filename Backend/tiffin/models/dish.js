@@ -15,7 +15,7 @@ const dishSchema = new mongoose.Schema({
         required:[true,'Please provide tiffin id']
     },
     ingredients:{
-        type:Array,
+        type:String,
         required:[true,'Please provide ingredients']
     },
     price:{

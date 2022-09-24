@@ -3,6 +3,11 @@ const dishModel = require('../models/dish')
 const orderModel = require('../models/order')
 const basketdishModel = require('../models/basketdish')
 
+const multer = require('multer')
+const path = require('path')
+
+
+
 const {StatusCodes} = require('http-status-codes')
 
 //errors
@@ -18,15 +23,23 @@ const getTiffinDetails = async(req,res)=>{
     }
     res.send(StatusCodes.OK).json({res:"success",data:tiffin})
 }
-
-const createDish = async(req,res)=>{
-    const {name,imageUrl,tiffinId,ingredients,price} = req.body
-    if(!name || !imageUrl || !tiffinId || !ingredients || !price)
+const updateTiffinDetails = async(req,res)=>{
+    const tiffin = await tiffinModel.findOneAndUpdate(req.user.userId,req.body)
+    if(!tiffin)
     {
-        throw new BadRequestError('Please provide necessary details')
+        throw new NotFoundError('No tiffin with provided details')
     }
-    const dish = await dishModel.create(req.body)
-    res.status(StatusCodes.CREATED).json({res:"success",data:dish})
+    res.status(StatusCodes.OK).json({res:"success",data:tiffin})
+}
+
+const deleteDish = async(req,res)=>{
+    const dish = await dishModel.findOneAndRemove(req.body.dishId)
+    if(!dish)
+    {
+        throw new NotFoundError('No dish with provided details')
+
+    }
+    res.status(StatusCodes.OK).json({res:"success",data:dish})
 }
 
 const getDishesByTiffinId = async(req,res)=>{
@@ -96,6 +109,7 @@ module.exports = {
     getDishesByTiffinId,
     getOrdersWithStatus,
     getTiffinDetails,
-    createDish,
-    changeStatus
+    changeStatus,
+    deleteDish,
+    updateTiffinDetails
 }
