@@ -36,3 +36,5 @@ Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHp
 - Once the delivery boy accepts order(he would be navigated towards restaurant on map, simultaneously user can track delivery boy on his/her mobile )
 - After the order is picked up from pickup point, delivery boy would be navigated towards user's location
 - Delivery Boy can complete order only after reaching user location(in between he can't leave it!)
+
+**Note: We've used AWS Amplify for temporary Testing purpose
