@@ -14,7 +14,7 @@ const orderSchema = new mongoose.Schema({
   },
   deliveryId: {
     type: mongoose.Types.ObjectId,
-    required: [true, "Please provide delivery id"],
+    required: false,
     unique: true,
   },
   tiffinId: {

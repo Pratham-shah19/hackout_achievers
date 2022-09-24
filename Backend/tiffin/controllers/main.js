@@ -80,13 +80,14 @@ const getDishAndQuantity = async(req,res)=>{
         throw new NotFoundError('No order with provided details')
     }
     const dishesArray = await basketdishModel.find({basketId})
-    dishes = {}
+    dishes = []
     dishesArray.forEach(e => {
         temp = {}
         temp.dish = e.dish
         temp.quantity = e.quantity
+        dishes.push(temp)
     });
-    res.status(StatusCodes.OK).json({res:"success",data:dishesArray})
+    res.status(StatusCodes.OK).json({res:"success",data:dishes})
 }
 
 const changeStatus = async(req,res)=>{

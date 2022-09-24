@@ -1,14 +1,19 @@
 const express = require('express')
 const router = express.Router()
-const {getTiffinDetails,getDishesByTiffinId,getOrdersWithStatus,getDishAndQuantity,changeStatus,updateTiffinDetails,deleteDish} = require('../controllers/main.js')
+const {getAllDetails,updateDetails,getDishesReadyForPickUp,getOrderDetails,changeStatus,getOrderHistory,getAllCoordinates,updateCoordinates} = require('../controllers')
 
-router.route('/{:id}').get(getTiffinDetails)
-router.route('/').post(updateTiffinDetails)
 
-router.route('/dish').delete(deleteDish)
-router.route('/dish/{:id}').get(getDishesByTiffinId)
+router.route('/').get(getAllDetails).patch(updateDetails)
+router.route('/validateOTP/:otp').get(validateOTP)
 
-router.route('/order').post(getOrdersWithStatus).get(getDishAndQuantity)
-router.route('/order/changestatus').patch(changeStatus)
+router.route('/dishes').get(getDishesReadyForPickUp)
+
+router.route('/order/details').post(getOrderDetails)//when modal is loaded
+router.route('/order/changeStatus/:id').patch(changeStatus)
+router.route('/order/history').get(getOrderHistory)
+
+router.route('/coordinates').get(getAllCoordinates)
+router.route('/coordinates/updateDeliveryBoyCoordinates').patch(updateCoordinates)
+
 
 module.exports = router

@@ -2,114 +2,104 @@ const tiffinModel = require('../models/tiffin')
 const dishModel = require('../models/dish')
 const orderModel = require('../models/order')
 const basketdishModel = require('../models/basketdish')
-
-const multer = require('multer')
-const path = require('path')
-
-
+const deliveryModel = require('../models/delivery')
+const userModel = require('../models/user')
 
 const {StatusCodes} = require('http-status-codes')
 
-//errors
-const {BadRequestError,NotFoundError} = require('../errors')
-const basketdish = require('../models/basketdish')
+const{BadRequestError,NotfoundError} = require('../errors')
+const { notify } = require('../routes/router')
 
-const getTiffinDetails = async(req,res)=>{
-    const tiffinId = req.params.id 
-    const tiffin = await tiffinModel.findOne({_id:tiffinId})
-    if(!tiffin)
+const getAllDetails = async(req,res)=>{
+    const deliveryId = req.user.userId;
+    const details = await deliveryModel.findOne({_id:deliveryId})
+    if(!details)
     {
-        throw new NotFoundError(`No tiffin with tiffin id ${tiffinId}`)
+        throw new NotfoundError('Not found')
     }
-    res.send(StatusCodes.OK).json({res:"success",data:tiffin})
+    res.status(StatusCodes.OK).json({res:"success",data:details})
+
 }
-const updateTiffinDetails = async(req,res)=>{
-    const tiffin = await tiffinModel.findOneAndUpdate(req.user.userId,req.body)
-    if(!tiffin)
+const updateDetails = async(req,res)=>{
+    const deliveryId = req.user.userId
+    const details = await deliveryModel.findOneAndUpdate({_id:deliveryId},req.body,{runValidators:true})
+    if(!details)
     {
-        throw new NotFoundError('No tiffin with provided details')
+        throw new NotfoundError('Details not found')
     }
-    res.status(StatusCodes.OK).json({res:"success",data:tiffin})
-}
-
-const deleteDish = async(req,res)=>{
-    const dish = await dishModel.findOneAndRemove(req.body.dishId)
-    if(!dish)
-    {
-        throw new NotFoundError('No dish with provided details')
-
-    }
-    res.status(StatusCodes.OK).json({res:"success",data:dish})
+    res.status(StatusCodes.OK).json({res:"success",data:details})
 }
 
-const getDishesByTiffinId = async(req,res)=>{
-    const tiffinId = req.params.id
-    const dishes = await dishModel.find({tiffinId})
+const getDishesReadyForPickUp = async(req,res)=>{
+    const dishes = await orderModel.find({status:"READY_TO_PICK"})
     if(!dishes)
     {
-        throw new NotFoundError(`No dish with tiffin id ${tiffinId}`)
+        throw new NotfoundError('Dishes are not ready yet')
     }
     res.status(StatusCodes.OK).json({res:"success",data:dishes})
-
 }
 
-const getOrdersWithStatus = async(req,res)=>{
-    const {tiffinId,status} = req.body;
-    if(!tiffinId || !status)
+const getOrderDetails = async(req,res)=>{
+    const {userId,tiffinId,basketId} = req.body
+    if(!userId || !tiffinId || !basketId)
     {
         throw new BadRequestError('Please provide necessary details')
     }
-    const orders = await orderModel.find({tiffinId,status})
-    if(!orders)
-    {
-        throw new NotFoundError('No orders with provided details')
-    }
-    res.status(StatusCodes.OK).json({res:"success",data:orders})
+    const user = await userModel.findOne({_id:userId})
+    const tiffin = await tiffinModel.findOne({_id:tiffinId})
+    const dishes = await basketdishModel.find({basketId})
 
-}
+    if(!user || !tiffin ||!dishes)
+    {
+        throw new NotfoundError('No items satisfying provided details')
+    }
+    res.status(StatusCodes.OK).json({res:"success",data:{userAddress:user.address,tiffinAddress:tiffin.address,dishes}})
 
-const getDishAndQuantity = async(req,res)=>{
-    const {userId,tiffinId} = req.body
-    if(!userId || !tiffinId)
-    {
-        throw new BadRequestError('Please provide necessary details')
-    }
-    const basketId = await orderModel.findOne({userId,tiffinId})
-    if(!basketId)
-    {
-        throw new NotFoundError('No order with provided details')
-    }
-    const dishesArray = await basketdishModel.find({basketId})
-    dishes = {}
-    dishesArray.forEach(e => {
-        temp = {}
-        temp.dish = e.dish
-        temp.quantity = e.quantity
-    });
-    res.status(StatusCodes.OK).json({res:"success",data:dishesArray})
 }
 
 const changeStatus = async(req,res)=>{
-    const {orderId,status} = req.body
-    if(!orderId || !status)
+    const orderId = req.body.orderId
+    if(orderId || req.body.status === 'ACCEPTED')
     {
-        throw new BadRequestError('Please provide necessary details')
+        const order = await orderModel.findOneAndUpdate({_id:orderId},{status:"ACCEPTED",deliveryId:req.user.userId},{runValidators:true})
+        if(!order)
+        {
+            throw new NotfoundError('No order with provided details')
+        }
+        res.status(StatusCodes.OK).json({res:"success",data:order})
     }
-    const order = await orderModel.findOneAndUpdate({orderId},{status},{runValidators:true})
+    if(orderId || req.body.status==='PICKED_UP')
+    {
+        const order = await orderModel.findOneAndUpdate({_id:orderId},req.body,{runValidators:true})
+        if(!order)
+        {
+            throw new NotfoundError('No order with provided details')
+        }
+        res.status(StatusCodes.OK).json({res:"success",data:order})
+
+    }
+    const order = await orderModel.findOneAndUpdate({_id:orderId},req.body,{runValidators:true})
     if(!order)
-    {
-        throw new NotFoundError(`No order with order id ${orderId}`)
-    }
-    res.status(StatusCodes.OK).json({res:"success",data:order})
+        {
+            throw new NotfoundError('No order with provided details')
+        }
+        res.status(StatusCodes.OK).json({res:"success",data:order})
+
 
 }
 
-module.exports = {
-    getDishAndQuantity,
-    getDishesByTiffinId,
-    getOrdersWithStatus,
-    getTiffinDetails,
-    changeStatus,
-    deleteDish,
-    updateTiffinDetails
+const getOrderHistory = async(req,res)=>{
+    const deliveryId = req.user.userId
+    const orders = await orderModel.find({_id:deliveryId,status:"COMPLETED"})
+    if(!orders)
+    {
+        throw new NotfoundError('No orders with provided details')
+    }
+    let data = orders.map(async (e)=>{
+        const user = await userModel.findOne({_id:req.body.userId})
+        const tiffin = await tiffinModel.findOne({_id:req.body.tiffinId})
+        return {username:user.name,tiffinname:tiffin.name,imageUrl:tiffin.imageUrl}
+    })
+    
+    res.status(StatusCodes.OK).json(data);
 }
