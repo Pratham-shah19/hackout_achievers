@@ -7,7 +7,7 @@ link: https://medium.com/@kirtanprajapati0804/women-empowerment-c75573f92925
 All ScreenShots of Apps is Provided on Google Drive
 Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHpIm5uJvd/view?usp=sharing
 
-1) Customer's App: 
+1) Customer's App:
 - SignUp (with 'email verification' by sending verification code on the respective email id)
 - Login (with 'forgot password' feature!)
 - Location Auto Detection
@@ -19,7 +19,7 @@ Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHp
 - Add to Favourites
 - User can update his/her address(if changed after login/registration).
 -
-2) Tiffin Service Provider's Application:
+2) Tiffin Service Provider's Application: ##(WORK IN PROGRESS)
 - Login/Registering (Once Restaurant is registered successfully user can see it in his/her Application)
 - Location Auto Detection
 - Can create Dishes (this dishes would be shown on the restaurant detail screen on user app)
@@ -29,7 +29,7 @@ Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHp
 - Can Upload their Workplace images (would be displayed on the user app)
 - Can Update their address details
 
-3) Delivery App:
+3) Delivery App: ##(WORK_IN_PROGRESS)
 - Login/Sign Up (All features same as user app)
 - Can see the current orders
 - Delivery boy can accept it(if he finds order close to him, delivery distance(current location to restaurant and from restaurant to user) and estimated time would be shown)
@@ -38,3 +38,5 @@ Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHp
 - Delivery Boy can complete order only after reaching user location(in between he can't leave it!)
 
 **Note: We've used AWS Amplify for temporary Testing purpose
+**Note: Tiffin service provider app and delivery app screen shots would be uploaded shortly
+
