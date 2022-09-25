@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "1",
+    "restaurantName": "Pizza Hut",
+    "restaurantImage": "https://st.depositphotos.com/1105977/1595/i/600/depositphotos_15951851-stock-photo-fresh-pizza.jpg",
+    "rating": 4.5,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "20 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "restaurantName": "Dominos Pizza",
+    "restaurantImage": "https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg",
+    "rating": 4.2,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "25 mins",
+    "category": "Italian , Mexican, Continental",
+    "dishes": [
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "restaurantName": "Sahyog Restaurant",
+    "restaurantImage": "https://geekrobocook.com/wp-content/uploads/2021/02/Pav-Bhaji.jpg",
+    "rating": 4.9,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "30 mins",
+    "category": "Gujarati , Punjabi, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "restaurantName": "Starbucks India",
+    "restaurantImage": "https://media.womensweekly.com.sg/public/2020/06/Tips-You-Didnt-Know-Could-Help-You-Save-Money-At-Starbucks.jpg",
+    "rating": 4.1,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "19 mins",
+    "category": "Beverages",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "restaurantName": "Sankalp taste of South India",
+    "restaurantImage": "https://gumlet.assettype.com/swarajya%2F2016-03%2Fa1431a1b-fd5e-4ec8-ae83-95753bb4c2bd%2Fdosa.jpg?w=1200&auto=format%2Ccompress&ogImage=true",
+    "rating": 4.5,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "10 mins",
+    "category": "South Indian",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "restaurantName": "McDonalds Solaris",
+    "restaurantImage": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/mcdonalds-burgers-fries.jpg?quality=82&strip=1&resize=640%2C360",
+    "rating": 4.6,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "12 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "restaurantName": "Burger King",
+    "restaurantImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Burger_King_Whopper_Combo.jpg/1024px-Burger_King_Whopper_Combo.jpg",
+    "rating": 4.8,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "19 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "restaurantName": "Pizza Hut",
+    "restaurantImage": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/PizzaHut.jpg?itok=5vNSzG6r",
+    "rating": 4.5,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "5 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "restaurantName": "LaPinoz",
+    "restaurantImage": "https://chaskasafari.com/wp-content/uploads/2017/05/wp-1494777668533.jpg?w=528",
+    "rating": 4.5,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "10 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "restaurantName": "Poptos",
+    "restaurantImage": "https://www.poptos.com/assets/image/upload/welcome.png",
+    "rating": 4.5,
+    "city": "Anand",
+    "area": "Vallabh Vidhyanagar",
+    "timeTodeliver": "31 mins",
+    "category": "Italian , Mexican, Chinese",
+    "dishes": [
+      {
+        "productName": "Garlic Crust Vegetable pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Gralic_Crust_Veggie_Pizza.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Whole Wheat Veggie Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Thin Crust",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/June-07/No_Yeast_Thin_Crust_Veggie_Pizza_Recipe-1_400.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Classic Veg Pizza",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://pizzawings.co.in/wp-content/uploads/2020/12/Classic-Veg.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "productName": "Margherita",
+        "productCategory": "In Pizzas",
+        "productDescription": "Hot and spicy",
+        "productImage": "https://www.crazymasalafood.com/wp-content/images/golden-1.jpg",
+        "productNoOfRaing": 200,
+        "productPrice": 80,
+        "productRating": 4.9,
+        "customize": [
+          {
+            "id": "1",
+            "title": "Extra Cheese",
+            "price": 55
+          },
+          {
+            "id": "2",
+            "title": "Extra Toppings",
+            "price": 80
+          }
+        ]
+      }
+    ]
+  }
+]
