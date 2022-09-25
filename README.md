@@ -7,6 +7,9 @@ link: https://medium.com/@kirtanprajapati0804/women-empowerment-c75573f92925
 All ScreenShots of Apps is Provided on Google Drive
 Link to Google Drive: https://drive.google.com/file/d/1draEKLvd2bhs67F-YcNCrtEHpIm5uJvd/view?usp=sharing
 
+WebBlog of Team Member's Profile
+Link: https://regal-bonbon-ecca92.netlify.app/
+
 1) Customer's App:
 - SignUp (with 'email verification' by sending verification code on the respective email id)
 - Login (with 'forgot password' feature!)
