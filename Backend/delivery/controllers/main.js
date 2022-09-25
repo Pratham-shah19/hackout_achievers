@@ -9,7 +9,21 @@ const {StatusCodes} = require('http-status-codes')
 
 const{BadRequestError,NotfoundError} = require('../errors')
 const { notify } = require('../routes/router')
+const delivery = require('../models/delivery')
 
+const validateOTP = async(req,res)=>{
+    const otp = req.params.otp
+    const deliveryId = req.user.userId
+    const boy = await deliveryModel.findOne({_id:deliveryId})
+    const boyOtp = boy.otp
+    if(otp === boyOtp)
+    {
+        res.status(StatusCodes.OK).json({res:"success",data:true})
+    }
+    else{
+        throw new NotfoundError("Opt did not match")
+    }
+}
 const getAllDetails = async(req,res)=>{
     const deliveryId = req.user.userId;
     const details = await deliveryModel.findOne({_id:deliveryId})
@@ -102,4 +116,32 @@ const getOrderHistory = async(req,res)=>{
     })
     
     res.status(StatusCodes.OK).json(data);
+}
+
+const getAllCoordinates = async(req,res)=>{
+    const {userId,tiffinId} = req.body;
+    const deliveryId = req.user.userId;
+    const user = await userModel.findOne({_id:userId})
+    const tiffin = await tiffinModel.findOne({_id:tiffinId})
+    const boy = await deliveryModel.findOne({_id:deliveryId})
+
+    res.status(StatusCodes.OK).json({res:"success",data:{user:{lnt:user.lnt,lng:user.lng},tiffin:{lnt:tiffin.lnt,lng:tiffin.lng},deliveryboy:{lnt:boy.lnt,lng:boy.lng}}})
+}
+
+const updateCoordinates = async(req,res)=>{
+    const deliveryId = req.user.userId
+    const item = await deliveryModel.findOneAndUpdate({_id:deliveryId},req.body,{runValidators:true})
+    res.status(StatusCodes.OK).json({res:"success",data:item})
+}
+
+module.exports={
+    getAllCoordinates,
+    getAllDetails,
+    getDishesReadyForPickUp,
+    getOrderDetails,
+    getOrderHistory,
+    changeStatus,
+    updateCoordinates,
+    updateDetails,
+    validateOTP
 }

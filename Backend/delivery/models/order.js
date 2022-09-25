@@ -4,21 +4,25 @@ const mongoose = require("mongoose");
 const orderSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Types.ObjectId,
+    ref:"User",
     required: [true, "Please provide user id"],
     unique: true,
   },
   basketId: {
     type: mongoose.Types.ObjectId,
+    ref:"Basket",
     required: [true, "Please provide basket id"],
     unique: true,
   },
   deliveryId: {
     type: mongoose.Types.ObjectId,
+    ref:"Delivery",
     required: false,
     unique: true,
   },
   tiffinId: {
     type: mongoose.Types.ObjectId,
+    ref:"Tiffin",
     required: [true, "Please provide tiffin id"],
     unique: true,
   },

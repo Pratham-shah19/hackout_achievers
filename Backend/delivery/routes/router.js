@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {getAllDetails,updateDetails,getDishesReadyForPickUp,getOrderDetails,changeStatus,getOrderHistory,getAllCoordinates,updateCoordinates} = require('../controllers')
+const {getAllDetails,updateDetails,getDishesReadyForPickUp,getOrderDetails,changeStatus,getOrderHistory,getAllCoordinates,updateCoordinates,validateOTP} = require('../controllers/main')
 
 
 router.route('/').get(getAllDetails).patch(updateDetails)
@@ -12,7 +12,7 @@ router.route('/order/details').post(getOrderDetails)//when modal is loaded
 router.route('/order/changeStatus/:id').patch(changeStatus)
 router.route('/order/history').get(getOrderHistory)
 
-router.route('/coordinates').get(getAllCoordinates)
+router.route('/coordinates').post(getAllCoordinates)
 router.route('/coordinates/updateDeliveryBoyCoordinates').patch(updateCoordinates)
 
 

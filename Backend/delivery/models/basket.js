@@ -2,10 +2,12 @@ const mongoose = require('mongoose')
 const basketSchema = new mongoose.Schema({
     userId:{
         type:mongoose.Types.ObjectId,
+        ref:"User",
         required:[true,'Please provide user id']
     },
     tiffinId:{
         type:mongoose.Types.ObjectId,
+        ref:"Tiffin",
         required:[true,'Please provide tiffin id']
     },
     price:{
